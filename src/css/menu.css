@@ -1,0 +1,45 @@
+.left-menu{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 0 0px;
+    gap: 30px;
+    align-items: center;
+}
+
+.menu-top, .menu-bottom{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: white;
+    padding: 7px 21px 7px 20px;
+    background-color: #6553B2;
+    border-radius: 16px;
+}
+
+.menu-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.menu-buttons button {
+    background-color: #503E9D;
+    border: none;
+}
+
+
+@media screen and (min-width: 1279px) {
+    .left-menu{
+        padding: 62px 74px 0 0px;
+        justify-content: space-between;
+        gap: 200px;
+    }
+
+    .menu-buttons{
+        padding: 0 0 200px 0;
+    }
+
+    .menu-bottom{
+        margin: 0 0 75px 0;
+    }
+}
